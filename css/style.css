@@ -1,0 +1,145 @@
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    background: url("../images/beach-blur-clouds-462030.jpg") ;
+    background-size:  1440px 820px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 0;
+    color: #ffffff;
+    text-transform: capitalize;
+    border: #000000 3px solid;
+    border-radius:10px;
+    margin: 3px 2px ;
+}
+
+.MM{
+    display: flex;
+    margin-top: 3%;
+}
+
+.MM li{
+    flex: 1;
+    text-align: center;
+}
+
+a:hover{
+    background: rgba(233, 233, 233, 0.5);
+    /* padding:15px 0; */
+}
+
+.MM>li>a {
+    text-transform: uppercase;
+    border-color:  #000000 ;
+    border-style:solid;
+    border-width:2px 5px 2px 0;
+    padding: 10% 0;
+    border-radius:0px;
+   font-weight: bold;
+   margin:0;
+   background: rgba(000, 000, 000, 0.3);
+    
+}
+
+.MM>li>a:hover {
+    background: rgba(233, 233, 233, 0.5);
+    border-radius:7px;
+    margin: 0 4px;
+    border-width:2px;
+}
+
+.MM>li:last-child>a {
+    border-right:0;
+}
+
+.SM2{
+    position: relative;
+}
+
+.SML2{
+    position: absolute;
+    width:100%;
+    left:100%;
+    top:0%;
+
+}
+.SML2 a{
+margin-top:0;
+}
+
+/* .SM >a:after{
+    display:inline-block;
+    content:"";
+    width: 10px;
+    height:10px;
+    border: #696969 3px solid;
+    border-radius:50%;
+    background: #000000 ;
+    margin: 0 0 0 20px;
+} */
+
+.SML{
+    display:none;
+}
+
+.SM1:hover .SML1,
+.SM2:hover .SML2{
+    display:block;
+}
+
+.carousel-container{
+    position: absolute;
+    background: rgba(000, 000, 000, 0.3);
+    z-index: -20; 
+    top: 25%;
+    bottom: 10%;
+    left:20%;
+    right: 20%;
+    border: #000000 2px solid;
+    
+    
+}
+.imgFrame{
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    border-width: 7px;
+    border-style: solid;
+    border-color: rgb(9, 0, 0);
+    border-image: initial;
+    overflow: hidden;
+}
+
+.carousel-slide{
+    display:flex;
+} 
+
+.fas{
+    position:absolute;
+    top:210px;
+    color:#ffffff;
+}
+
+
+
+.fa-arrow-right{
+    right:120px;
+   
+}
+.fa-arrow-left{ 
+    left:120px;   
+}
+
